@@ -4,7 +4,7 @@
 node{
   def mavenHome = tool name: 'maven3.8.4'
   stage('CodeClone') {
-    git credentialsId: 'git', url: 'https://github.com/PEtarock/Sonarqube_Test.git'
+    git credentialsId: 'git', url: 'https://github.com/PEtarock/Sonarqube_Test2.git'
   }
  /* 
   stage('mavenBuild') {
